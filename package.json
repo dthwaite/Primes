@@ -1,7 +1,7 @@
 {
   "name": "primes",
   "version": "1.0.0",
-  "description": "Very simple tester and finder of prime numbers",
+  "description": "Extremely simple tester and finder of prime numbers",
   "keywords": [
     "number",
     "prime"

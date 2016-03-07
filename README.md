@@ -7,10 +7,13 @@ primes.js is a very, very simple prime number checker and generator
 It caches prime numbers so that repeated calls rely on previous work done in finding primes to improve performance
 
 * Install:
-npm install
+npm install git://github.com/dthwaite/Primes
 
 * Test:
-npm test
+npm test primes
+
+* Uninstall:
+npm uninstall primes
 
 Usage:
 
@@ -22,9 +25,9 @@ in node:
     Primes.nextPrime(31); // 37
 ```
 
-in the browser:
+in the browser (loading from CDN):
 ```javascript
-    <script src ="primes.js"></script>
+    <script src="https://cdn.rawgit.com/dthwaite/Primes/master/lib/primes.min.js"></script>
 
     Primes.isPrime(31); // true
     Primes.nextPrime(31); // 37

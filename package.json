@@ -1,0 +1,27 @@
+{
+  "name": "primes",
+  "version": "1.0.0",
+  "description": "Very simple tester and finder of prime numbers",
+  "keywords": [
+    "number",
+    "prime"
+  ],
+  "author": "Dominic Thwaites <dominicthwaites@mac.com>",
+  "main": "./index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dthwaite/primes.js.git"
+  },
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "devDependencies": {
+    "eslint": "^2.2.0",
+    "mocha": "^2.3.0",
+    "assert": "^3.3.0"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10.x"
+  }
+}

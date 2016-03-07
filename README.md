@@ -1,5 +1,7 @@
 ## primes.js
 
+[![Build Status](https://secure.travis-ci.org/dthwaite/Primes.png)](http://travis-ci.org/dthwaite/Primes)
+
 primes.js is a very, very simple prime number checker and generator
 
 It caches prime numbers so that repeated calls rely on previous work done in finding primes to improve performance

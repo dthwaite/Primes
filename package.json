@@ -4,13 +4,14 @@
   "description": "Extremely simple tester and finder of prime numbers",
   "keywords": [
     "number",
-    "prime"
+    "prime",
+    "javascript"
   ],
   "author": "Dominic Thwaites <dominicthwaites@mac.com>",
   "main": "./index",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dthwaite/primes.js.git"
+    "url": "https://github.com/dthwaite/Primes.git"
   },
   "scripts": {
     "test": "mocha test/"
